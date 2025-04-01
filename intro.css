@@ -1,0 +1,62 @@
+/* 1. Element Selector - Applies to all <h1> elements */
+
+h1 {
+    color: #333333;  /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    text-align: center;  /* Centered text */
+    font-size: 2.5em;  /* Font size */
+    margin-bottom: 20px; /* Space below the <h1> */
+}
+
+a {
+    color: #0000FF;  /* Link color */
+    text-decoration: solid;  /* No underline on links */
+    font-weight: bold;  /* Bold text for links */
+}
+
+a:hover {
+    color: #FF0000;  /* Change color on hover */
+    text-decoration: underline;  /* Underline on hover */
+}
+
+/* 2. Class Selector - Applies to any element with the class "highlight" */
+.highlight {
+    color: rgb(233, 29, 29);  /* Highlighted background */
+    padding: 10px;  /* Padding around the content */
+}
+
+/* 3. ID Selector - Applies to the element with the ID "main-image" */
+#section1 {
+    width: 100%;  /* Image takes full width */
+    border: 5px solid #000;  /* Border around the image */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: aqua;  /* Background color */
+    margin-top: 20px;  /* Margin at the top of the image */
+}
+
+#section2 {
+    width: 100%;  /* Image takes full width */
+    border: 5px solid #000;  /* Border around the image */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: rgb(14, 236, 162);  /* Background color */
+    margin-top: 20px;  /* Margin at the top of the image */
+}
+
+#section3 {
+    width: 100%;  /* Image takes full width */
+    border: 5px solid #000;  /* Border around the image */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: rgb(144, 235, 59);  /* Background color */
+    margin-top: 20px;  /* Margin at the top of the image */
+}
+
+/* 4. Additional styling for the body */
+body {
+    font-family: 'Verdana', sans-serif; /* Different font */
+    margin: 0;
+    padding: 0;
+    background-color: #fafbfd;  /* Light gray background */
+}
